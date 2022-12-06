@@ -21,7 +21,7 @@ export default function Home() {
       <Flex
         as="section"
         justify={"center"}
-        height={"80vh"}
+        minH={"80vh"}
         paddingX={{ base: "30px", md: "auto" }}
         paddingY={{ base: "24px", md: "64px" }}
         width={"100%"}

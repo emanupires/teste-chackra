@@ -34,12 +34,14 @@ export default function Header() {
         alignItems={"center"}
       >
         <Flex>
-          <Image
-            src={"/img/logo.png"}
-            alt="Logo site Coser Oficina"
-            width={"106px"}
-            height={"43px"}
-          />
+          <Link href="http://localhost:3000">
+            <Image
+              src={"/img/logo.png"}
+              alt="Logo site Coser Oficina"
+              width={"106px"}
+              height={"43px"}
+            />
+          </Link>
         </Flex>
         <Flex display={["none", "none", "flex", "flex"]}>
           <MenuLinks />

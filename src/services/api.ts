@@ -25,3 +25,15 @@ export const showPostOnNewPage = async (id: number) => {
 
   return showPost.data;
 };
+
+export const getAllUsers = async () => {
+  const allUsers = await api.get(`/users`);
+
+  return allUsers.data;
+};
+
+export const showUserOnNewPage = async (id: number) => {
+  const showUser = await api.get(`users/${id}`);
+
+  return showUser.data;
+};

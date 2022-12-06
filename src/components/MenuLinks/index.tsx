@@ -9,7 +9,7 @@ export interface IMenuLinks {
 
 export const MenuLinks = () => {
   const menuList = [
-    { id: 1, name: "Home", link: "#home" },
+    { id: 1, name: "Home", link: "http://localhost:3000" },
     { id: 2, name: "Sobre a Coser", link: "#sobre-coser" },
     { id: 3, name: "Serviços", link: "#servicos" },
     { id: 4, name: "Contato", link: "#contato" },
