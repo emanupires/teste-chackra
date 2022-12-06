@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "text": "Chamar a Coser",
+    "width": "177px",
+    "color": "#023C76",
+    "height": "46px"
+  },
+  {
+    "id": 1,
+    "text": "Fale com a Coser",
+    "width": "177px",
+    "color": "#E40329",
+    "height": "46px"
+  },
+  {
+    "id": 2,
+    "text": "ENVIAR MENSAGEM",
+    "width": "100%",
+    "color": "#023C76",
+    "height": "46px"
+  },
+  {
+    "id": 3,
+    "text": "Entrar em contato",
+    "width": "195px",
+    "color": "#023C76",
+    "height": "48px"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "icon": "/img/predio.png",
+    "text": "Rua Ângelo Preto, 238,",
+    "text2": "Centro, Passo Fundo"
+  },
+  {
+    "id": 2,
+    "icon": "/img/telefone.png",
+    "text": "(54) 3311.4810",
+    "text2": "(54) 99245.0887"
+  }
+]
