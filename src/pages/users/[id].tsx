@@ -23,14 +23,15 @@ import {
 } from "../../services/api";
 import { Router, useRouter } from "next/router";
 import Link from "next/link";
+import { IUSers } from ".";
 
 export default function Users() {
   const router = useRouter();
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<IUSers | null>(null);
 
   useEffect(() => {
     if (router.query.id) {
-      showUserOnNewPage(router.query.id).then((res) => setUser(res));
+      showUserOnNewPage(Number(router.query.id)).then((res) => setUser(res));
     }
   }, [router]);
 

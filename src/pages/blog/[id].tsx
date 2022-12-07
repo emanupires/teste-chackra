@@ -4,14 +4,15 @@ import Header from "../../components/Header";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { showPostOnNewPage } from "../../services/api";
+import { IPost } from ".";
 
 export default function Home() {
   const router = useRouter();
-  const [post, setPost] = useState(null);
+  const [post, setPost] = useState<IPost | null>(null);
 
   useEffect(() => {
     if (router.query.id) {
-      showPostOnNewPage(router.query.id).then((res) => setPost(res));
+      showPostOnNewPage(Number(router.query.id)).then((res) => setPost(res));
     }
   }, [router]);
 

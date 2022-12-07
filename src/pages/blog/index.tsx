@@ -21,7 +21,7 @@ import {
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-interface IPost {
+export interface IPost {
   id: number;
   title: string;
   body: string;

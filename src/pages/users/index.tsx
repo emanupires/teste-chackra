@@ -21,7 +21,7 @@ import {
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-interface IUSers {
+export interface IUSers {
   id: number;
   name: string;
   username: string;
@@ -32,12 +32,12 @@ interface IUSers {
   email: string;
 }
 
-interface ICompany {
+export interface ICompany {
   name: string;
   bs: string;
 }
 
-interface IAdress {
+export interface IAdress {
   street: string;
   suite: string;
   city: string;
