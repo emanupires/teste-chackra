@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { Flex, Text, Image, Grid, GridItem, Button } from "@chakra-ui/react";
+import {
+  Flex,
+  Text,
+  Image,
+  Grid,
+  GridItem,
+  Button,
+  Heading,
+  Box,
+} from "@chakra-ui/react";
 import Header from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import axios from "axios";

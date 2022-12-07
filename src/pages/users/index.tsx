@@ -25,13 +25,27 @@ interface IUSers {
   id: number;
   name: string;
   username: string;
+  phone: string;
   website: string;
   company: ICompany;
+  address: IAdress;
+  email: string;
 }
 
 interface ICompany {
   name: string;
   bs: string;
+}
+
+interface IAdress {
+  street: string;
+  suite: string;
+  city: string;
+  zipcode: string;
+  geo: {
+    lat: string;
+    lng: string;
+  };
 }
 
 export default function Usuarios() {
