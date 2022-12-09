@@ -78,8 +78,3 @@ export default function Blog() {
     </>
   );
 }
-/*
-onclick -> redireciona à página post com os elementos do post (useNavigate)
-ao cliclar, é utilizado o id do post para se fazer a requisição e exibir a postagem completa 
-criar nova page com um botão para quando ele for clicado, ser redirecionado
-*/
